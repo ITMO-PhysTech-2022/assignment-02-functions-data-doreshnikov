@@ -121,7 +121,7 @@
 
 * `select({'name': 'Barsik', 'age': 10, 'job': 'Cat'}, 'name', 'age')` &rightarrow; `{'name': 'Barsik', 'age': 10}`
 * `select({'name': 'Barsik', 'job': 'Cat'}, 'name', 'age')` &rightarrow; `{'name': 'Barsik', 'age': None}`
-* `select({}, 'x', 'y', 'x')` &rightarrow; `{'x': None, 'y': None, 'z': None}`
+* `select({}, 'x', 'y', 'z')` &rightarrow; `{'x': None, 'y': None, 'z': None}`
 
 ### [functions.py](functions.py)
 
