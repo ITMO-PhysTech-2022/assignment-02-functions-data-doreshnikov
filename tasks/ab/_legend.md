@@ -50,8 +50,8 @@
 
 **Реализация вашей функции должна состоять из вызова `caesar_encode()` и больше ничего.**
 
-* `caesar_encode('bzdrzq', 1)` &rightarrow; `'caesar'`
-* `caesar_encode('Tcrdst iwxh', 11)` &rightarrow; `'Encode this'`
+* `caesar_decode('bzdrzq', 1)` &rightarrow; `'caesar'`
+* `caesar_decode('Tcrdst iwxh', 11)` &rightarrow; `'Encode this'`
 
 ---
 
